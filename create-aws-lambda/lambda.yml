@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: 2010-09-09
+Transform: 'AWS::Serverless-2016-10-31'
+Description: Basic Lambda Creation
+Resources:
+  Lambda:
+    Type: 'AWS::Serverless::Function'
+    Properties:
+      CodeUri: 's3://my-lambda-blog-test/Lambda.zip'
+      Handler: index.handler
+      Runtime: nodejs8.10
+      Description: My Lambda
+      MemorySize: 128
+      Timeout: 15
