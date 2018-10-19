@@ -1,0 +1,12 @@
+{
+  "name": "notifier",
+  "version": "1.0.0",
+  "description": "Simple notifier using SNS service",
+  "main": "index.js",
+  "dependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Deegloo",
+  "license": "ISC"
+}
